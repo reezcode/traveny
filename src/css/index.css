@@ -188,3 +188,45 @@ label {
     border-radius: 20px;
     padding: 30px 35px;
 }
+
+.highlight {
+    width: 50%;
+    margin-top: 15px;
+    padding: 0px 75px 0px 75px;
+}
+
+.highlight p {
+    font-weight: bold;
+}
+
+.highlight img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+}
+
+.item1 p {
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.section-banner {
+    width: 100%;
+    height: 300px;
+    background-color: #F5FBFF;
+    margin-top: 65px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.section-banner span {
+    font-weight: bold;
+    color: #3AACFE;
+}
