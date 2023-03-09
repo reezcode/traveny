@@ -216,7 +216,7 @@ label {
     margin-left: 20px;
 }
 
-.section-banner {
+#our-package {
     width: 100%;
     height: 200px;
     background-color: #F5FBFF;
@@ -227,7 +227,7 @@ label {
     justify-content: center;
 }
 
-.section-banner span {
+#our-package span {
     font-weight: bold;
     color: #3AACFE;
 }
