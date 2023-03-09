@@ -71,20 +71,58 @@ header {
     justify-content: center;
 }
 
-.hero-img {
+img {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    object-fit: cover;
-    left: 0;
-    opacity: 0;
-    border-radius: 20px;
-    transition: opacity 1s ease-in-out;
 }
 
-.hero-img.active {
-    opacity: 1;
+input {
+    width: 93.5%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.submit-btn {
+    font-family: 'Plus Jakarta Sans';
+    width: 100%;
+    margin-top: 25px;
+    background-color: #3AACFE;
+    color: white;
+    border: none;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+.submit-btn:hover {
+    background-color: #3590D1;
+    
+}
+
+select:focus {
+    outline: none !important;
+    border:2px solid #3AACFE;
+}
+
+input:focus {
+    outline: none !important;
+    border:2px solid #3AACFE;
 }
 
 .user-review {
@@ -97,10 +135,24 @@ header {
     color: #6B6B6B;
 }
 
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#img img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+}
+
 .banner {
     width: 100%;
-    height: 400px;
-    overflow: hidden;
+    height: 540px;
     position: relative;
 }
 

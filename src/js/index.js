@@ -1,9 +1,18 @@
-const slides = document.querySelectorAll('.hero-img');
-let currentSlide = 0;
-const slideInterval = setInterval(nextSlide, 2000);
+var img = document.getElementById('img');
 
-function nextSlide() {
-  slides[currentSlide].classList.remove('active');
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].classList.add('active');
+var slides=['src/img/image,png','src/img/image2.png','src/img/image3,png'];
+
+var Start=0;
+
+function slider(){
+    if(Start<slides.length){
+        Start=Start+1;
+    }
+    else{
+        Start=1;
+    }
+    console.log(img);
+    img.innerHTML = "<img src="+slides[Start-1]+">";
+   
 }
+setInterval(slider,2000);
