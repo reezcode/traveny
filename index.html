@@ -43,18 +43,21 @@
             <h4>Contact Us</h4>
             <p>Kami akan menghubungi anda 1x24 jam setelah data  diterima.</p>
             <div class="forms">
-                <label for="text">Your Name:</label><br>
-                <input type="text" placeholder="First and last name">
-                <br><br><label for="email">Email Address:</label><br>
-                <input type="email" placeholder="example@email.com">
-                <br><br><label for="option">What are you interested in?</label><br>
-                <select id="places">
-                    <option value="Japan">Japan</option>
-                    <option value="Surabaya">Surabaya</option>
-                    <option value="Tegal">Tegal</option>
-                    <option value="Madura">Madura</option>
-                </select>
-                <input type="submit" class="submit-btn" value="SEND">
+                <form id="contact-form" action="#" method="post">
+                    <label for="text">Your Name:</label><br>
+                    <input type="text" placeholder="First and last name" id="name" name="name" required>
+                    <br><br><label for="email">Email Address:</label><br>
+                    <input type="email" placeholder="example@email.com" id="email" name="email" required>
+                    <br><br><label for="option">What are you interested in?</label><br>
+                    <select id="places" id="destination" name="destination" required>
+                        <option value="">Pilih Destinasi</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Tegal">Tegal</option>
+                        <option value="Madura">Madura</option>
+                    </select>
+                    <input type="submit" class="submit-btn" value="SEND">
+                </form>
             </div>
             
         </div>
